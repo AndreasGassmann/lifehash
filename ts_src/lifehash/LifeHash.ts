@@ -197,10 +197,10 @@ export class LifeHash {
     // if (version === LifeHashVersion.detailed) {
     //   entropy.next();
     // } else {
-    //   if (version === LifeHashVersion.version2) {
-    //     entropy.next();
-    //     entropy.next();
-    //   }
+    if (version === LifeHashVersion.version2) {
+      entropy.next();
+      entropy.next();
+    }
     // }
 
     gradient = select_gradient(entropy, version);
