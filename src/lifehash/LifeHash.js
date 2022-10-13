@@ -150,10 +150,10 @@ class LifeHash {
         // if (version === LifeHashVersion.detailed) {
         //   entropy.next();
         // } else {
-        //   if (version === LifeHashVersion.version2) {
-        //     entropy.next();
-        //     entropy.next();
-        //   }
+        if (version === LifeHashVersion_1.LifeHashVersion.version2) {
+            entropy.next();
+            entropy.next();
+        }
         // }
         gradient = (0, color_utils_1.select_gradient)(entropy, version);
         pattern = Pattern_1.Pattern.select_pattern(entropy, version);

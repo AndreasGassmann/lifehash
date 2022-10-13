@@ -1,6 +1,6 @@
 {
     "name": "lifehash",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "TypeScript/JavaScript implementation of LifeHash, a visual hash algorithm",
     "main": "src/index.js",
     "types": "./types/index.d.ts",
